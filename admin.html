@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة الأدمن</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <div class="container">
+    <h1>إدارة الصفحة</h1>
+    <form id="admin-form">
+      <label>الصورة الشخصية</label>
+      <input type="file" id="profile-pic">
+
+      <label>اسمك</label>
+      <input type="text" id="admin-name">
+
+      <label>الوصف</label>
+      <textarea id="admin-bio"></textarea>
+
+      <label>روابط وسائل التواصل الاجتماعي</label>
+      <input type="url" placeholder="Facebook" id="facebook-link">
+      <input type="url" placeholder="Instagram" id="instagram-link">
+      <input type="url" placeholder="WhatsApp" id="whatsapp-link">
+      <input type="url" placeholder="Behance" id="behance-link">
+      <input type="url" placeholder="YouTube" id="youtube-link">
+
+      <button type="submit">حفظ التعديلات</button>
+    </form>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
